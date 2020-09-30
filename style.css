@@ -20,4 +20,5 @@ img {
     width: 600px;
     height: 400px;
     transition: .4s;
+    flex-shrink: 0;
 }
