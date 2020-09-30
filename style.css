@@ -1,0 +1,23 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0 0 4px black;
+    border-radius: 10px;
+}
+
+
+.images {
+    display: flex;
+
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    transition: .4s;
+}
